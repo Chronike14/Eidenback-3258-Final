@@ -7973,7 +7973,12 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"UI","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"knife","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"gameController","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"camera","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890272269435694970, guid: 7e645565a2e5df048a8560142391236a, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4890272269435694970, guid: 7e645565a2e5df048a8560142391236a, type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
@@ -7987,6 +7992,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[4]
       value: 
       objectReference: {fileID: 322468137}
+    - target: {fileID: 4890272269435694970, guid: 7e645565a2e5df048a8560142391236a, type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 1919416228}
     - target: {fileID: 6049289959345111932, guid: 7e645565a2e5df048a8560142391236a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -48.615517
@@ -8156,6 +8165,11 @@ LightingSettings:
 --- !u!4 &1872371385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3588187627522246371, guid: 7e645565a2e5df048a8560142391236a, type: 3}
+  m_PrefabInstance: {fileID: 1754611829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1919416228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3141832155070838106, guid: 7e645565a2e5df048a8560142391236a, type: 3}
   m_PrefabInstance: {fileID: 1754611829}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1952432588
